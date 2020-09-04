@@ -81,7 +81,7 @@
 	}
 
 	function houses_after_insert($data, $memberInfo, &$args){
-		$_SESSION['custom_err_msg']="<b>Congratulations!! New House added Successfully</b>";
+		$_SESSION['custom_err_msg']="<b>Congratulations!! New Room added Successfully</b>";
 		return TRUE;
 	}
 
@@ -91,7 +91,7 @@
 	}
 
 	function houses_after_update($data, $memberInfo, &$args){
-		$_SESSION['custom_err_msg']="<b>Congratulations!! House Details Updated Successfully</b>";
+		$_SESSION['custom_err_msg']="<b>Congratulations!! Room Details Updated Successfully</b>";
 		return TRUE;
 	}
 
